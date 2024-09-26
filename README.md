@@ -5,6 +5,8 @@ Este é um projeto Android que demonstra o uso de `ConstraintLayout` para layout
 <br>
 
 [![black.jpg](https://i.postimg.cc/y6FH0MxJ/black.jpg)](https://postimg.cc/c642S5QZ)
+[![blue.jpg](https://i.postimg.cc/ZqhhNx3S/blue.jpg)](https://postimg.cc/k2wZ38f1)
+[![red.jpg](https://i.postimg.cc/XJzHfnhC/red.jpg)](https://postimg.cc/wyDQHY9q)
 
 ## Tecnologias Utilizadas
 

@@ -27,6 +27,15 @@ public class Tela2 extends AppCompatActivity {
 
     public void init() {
 
+        View decorView = getWindow().getDecorView();
+        int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN
+                | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION // Oculta os botões de navegação
+                | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY // Modo imersivo que reaparece com gesto
+                | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                | View.SYSTEM_UI_FLAG_LAYOUT_STABLE;
+        decorView.setSystemUiVisibility(uiOptions);
+
         sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE);
         int background = sharedPreferences.getInt("background", 0);
 
