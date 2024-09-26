@@ -1,4 +1,4 @@
-# Navigation-between-screens
+# Navigation between screens
 
 Este é um projeto Android que demonstra o uso de `ConstraintLayout` para layouts dinâmicos, `Intent` para navegação entre atividades, `SharedPreferences` para persistência simples de dados e `Intent.putExtra` para passar informações entre atividades.
 
